@@ -1,0 +1,316 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #333;
+}
+
+.nav-container .logo span {
+    color: #fff;
+    font-size: 2rem;
+}
+
+.links {
+    display: flex;
+}
+
+.links .link {
+    margin: 0 1rem;
+}
+
+.links .link a {
+    color: #fff;
+    font-size: 1rem;
+}
+
+.contact-btn a {
+    background-color: #007bff;
+    padding: 0.5rem 1rem;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.contact-btn a:hover {
+    background-color: #0056b3;
+}
+
+/* Home Section */
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fff;
+}
+
+.home-container {
+    display: flex;
+    align-items: center;
+}
+
+.image img {
+    width: 200px;
+    border-radius: 50%;
+    margin-right: 2rem;
+}
+
+.content h1 {
+    font-size: 2.5rem;
+}
+
+.social-links a {
+    margin-right: 10px;
+    font-size: 2rem;
+    color: #333;
+}
+
+.social-links a:hover {
+    color: #007bff;
+}
+
+/* About Section */
+.about {
+    padding: 4rem 2rem;
+    background-color: #fff;
+}
+
+.about-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.about h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.about p {
+    font-size: 1.2rem;
+    color: #777;
+}
+
+/* Skills Section */
+.skills {
+    padding: 4rem 2rem;
+    background-color: #fff;
+}
+
+.skills-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.skills h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.skills ul {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.skills ul li {
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+
+/* Contact Section */
+.contact {
+    padding: 4rem 2rem;
+    background-color: #fff;
+}
+
+.contact-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 1rem;
+    margin: 0.5rem 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.contact-form button {
+    padding: 1rem 2rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #555;
+}
+
+.contact-info {
+    margin-top: 3rem;
+}
+
+.contact-info h3 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.contact-info ul li {
+    font-size: 1.2rem;
+    color: #555;
+    margin: 0.8rem 0;
+}
+
+.contact-info ul li i {
+    margin-right: 10px;
+}
+
+.contact-info ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+.contact-info ul li a:hover {
+    color: #555;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+}
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Navigation Bar Styles */
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo span {
+    font-size: 24px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.links {
+    display: flex;
+}
+
+.link {
+    margin: 0 15px;
+}
+
+.link a {
+    color: #fff;
+    font-size: 18px;
+    padding: 8px 12px;
+}
+
+.link a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+
+/* Education Section Styles */
+.education {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.education-container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.education h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.education ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.education ul li {
+    font-size: 20px;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+.education ul li:last-child {
+    border-bottom: none;
+}
+
+.education ul li strong {
+    font-weight: bold;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
